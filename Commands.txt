@@ -29,8 +29,6 @@ quit;
 /etc/init.d/mysql start
 exit;
 
-
-
 #######Connecting to Hive Beeline ################################
 
 beeline -u jdbc:hive2://localhost:10000/default -n ashwin_jai2009@big-data -d org.apache.hive.jdbc.HiveDriver
