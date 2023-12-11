@@ -63,6 +63,28 @@ Three are charging some unusual Extra charges with count of 334964 , 180547 , 23
 
 7. MTA TAX <br>
 
+![image](https://github.com/ashwinjai/Yellow-Taxi-Trip-Analysis-in-Big-Data-Analytics-/assets/36980518/7dade77b-e7bb-4568-a09b-0ec5ea978a5e)
+
+mta_tax was  unusually charged, from vendor 2 and 1 with count of 71239  and 172 times and total of -35155 and 172 respectively. <br>
+
+8. TIP AMOUNT <br>
+
+![image](https://github.com/ashwinjai/Yellow-Taxi-Trip-Analysis-in-Big-Data-Analytics-/assets/36980518/6c044771-0bbf-4b1f-976a-42b57e4b1e24)
+
+tip_amount was unusually charged by only vendor 2,count is 785 times with total of -4188 <br>
+
+9. TIP AMOUNT IMPROVEMENT_SURCHARGE <br>
+
+![image](https://github.com/ashwinjai/Yellow-Taxi-Trip-Analysis-in-Big-Data-Analytics-/assets/36980518/c80f2578-c268-45b3-8ac7-97896aaca25c)
+
+improvement_surcharge was charged by only from vendor 2 and 4 and count is 73264 & 10 times with total of -10656.72
+
+
+
+
+
+
+
 
 
 
