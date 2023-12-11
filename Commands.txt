@@ -1,0 +1,38 @@
+############## Installing GCSFUSE #######################
+export GCSFUSE_REPO=gcsfuse-`lsb_release -c -s`
+echo "deb http://packages.cloud.google.com/apt $GCSFUSE_REPO main" | sudo tee /etc/apt/sources.list.d/gcsfuse.list
+curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key add -
+sudo apt-get update
+sudo apt-get install gcsfuse
+
+
+############## Mounting Bucket #######################
+mkdir sqoop-data
+gcsfuse dataproc-220161 sqoop-data
+
+
+############## Setting MYSQL Root Password #######################
+sudo /etc/init.d/mysql stop
+sudo -s
+mkdir -p /var/run/mysqld
+sudo chown mysql:mysql /var/run/mysqld
+mysqld_safe --skip-grant-tables & 
+mysql -u root
+
+use mysql;
+update user set authentication_string=PASSWORD("admin123") where user='root';
+update user set plugin= "mysql_native_password" where user='root';
+flush privileges;
+quit;
+
+/etc/init.d/mysql stop
+/etc/init.d/mysql start
+exit;
+
+
+
+#######Connecting to Hive Beeline ################################
+
+beeline -u jdbc:hive2://localhost:10000/default -n ashwin_jai2009@big-data -d org.apache.hive.jdbc.HiveDriver
+
+
