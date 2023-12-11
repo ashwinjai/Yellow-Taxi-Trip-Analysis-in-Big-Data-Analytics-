@@ -2,6 +2,8 @@
 
 ## Project Overview
 
+The Yellow Taxi Trip Analysis project aims to leverage Big Data Analytics to derive valuable insights from vast volumes of taxi trip data. By utilizing the power of Google Cloud Platform (GCP), Hadoop, and Hive, this project seeks to analyze and extract meaningful patterns, trends, and metrics from large-scale datasets related to Yellow Taxi trips in a given geographic area. <br>
+
 ## Problem Statement
 The New York City Taxi & Limousine Commission (TLC) has furnished a comprehensive dataset documenting taxi trips within the city. This detailed trip-level dataset extends beyond a mere compilation of pickup and drop-off coordinates. <br>
 
@@ -24,6 +26,15 @@ The primary objective of this dataset is to enhance comprehension of the taxi sy
 ![Bucket_Data](https://github.com/ashwinjai/Yellow-Taxi-Trip-Analysis-in-Big-Data-Analytics-/assets/36980518/8a4382a2-2e66-4775-8c2a-9f43b83cfc0e)
 
 ![image](https://github.com/ashwinjai/Yellow-Taxi-Trip-Analysis-in-Big-Data-Analytics-/assets/36980518/c351e569-d492-4235-9243-caebeb6a9667)
+
+### Methodology <br>
+
+**Ingestion** : Raw Yellow Taxi trip data will be ingested into GCS, ensuring durability and availability. <br>
+**Processing** : Hadoop will be used for distributed processing, and MapReduce jobs will be developed to analyze and transform the data. <br>
+**Storage** : Processed data will be stored in HDFS for further analysis and exploration. <br>
+**Analysis** : Hive queries will be employed to perform SQL-like analysis on the stored data, allowing for the extraction of relevant information. <br>
+
+
 
 ## BigQuery
 
