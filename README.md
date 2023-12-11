@@ -25,6 +25,53 @@ The primary objective of this dataset is to enhance comprehension of the taxi sy
 
 ![image](https://github.com/ashwinjai/Yellow-Taxi-Trip-Analysis-in-Big-Data-Analytics-/assets/36980518/c351e569-d492-4235-9243-caebeb6a9667)
 
+## BigQuery
+
+1. An ORC (Optimized Row Columnar) table is built on top of Hadoop to access Apache Hive as it's compatible format <br>
+
+![image](https://github.com/ashwinjai/Yellow-Taxi-Trip-Analysis-in-Big-Data-Analytics-/assets/36980518/e84adf8b-98e0-446f-871a-5b5eb0b38a06)
+
+2. Count the number of records <br>
+
+![image](https://github.com/ashwinjai/Yellow-Taxi-Trip-Analysis-in-Big-Data-Analytics-/assets/36980518/91628356-efc7-4de2-a217-0f7a58f86db1)
+
+There are in total 1174569 records. <br>
+
+3. Summarises the number of Total Passenger of each provider <br>
+
+![image](https://github.com/ashwinjai/Yellow-Taxi-Trip-Analysis-in-Big-Data-Analytics-/assets/36980518/21c6538c-cee4-4109-83f1-812b831e73c3)
+
+For vender_id-1 total record is 47026340 and for vender_id 2 is 64716535 and for vendor_id 4 is 491751. <br>
+
+4. Trip duration <br>
+
+![image](https://github.com/ashwinjai/Yellow-Taxi-Trip-Analysis-in-Big-Data-Analytics-/assets/36980518/e53ecefc-e4fe-422e-be87-3fd63b295425)
+
+We can see Data Quality issue <br>
+
+5. Fare Amount <br>
+
+![image](https://github.com/ashwinjai/Yellow-Taxi-Trip-Analysis-in-Big-Data-Analytics-/assets/36980518/e35d0d16-1d03-4b81-b8bf-3b5ec4c97b1e)
+
+the total erroneous(negative) count by vendor_id 2 is 73049 and it amounts to -712942.76 <br>
+
+6. Extra charged <br>
+
+![image](https://github.com/ashwinjai/Yellow-Taxi-Trip-Analysis-in-Big-Data-Analytics-/assets/36980518/4e5f53a8-cf96-40b8-aa21-1d41855aac58)
+
+Three are charging some unusual Extra charges with count of 334964 , 180547 , 2391. high numbers can be seen from Vendor_iD 2(Verifone inc) <br>
+
+7. MTA TAX <br>
+
+
+
+
+
+
+
+
+
+
 
 
 
