@@ -12,3 +12,8 @@ The primary objective of this dataset is to enhance comprehension of the taxi sy
 ## High Level Diagram 
 
 ![Untitled Diagram](https://github.com/ashwinjai/Yellow-Taxi-Trip-Analysis-in-Big-Data-Analytics-/assets/36980518/9241ede8-1f08-4887-ab8a-2e64a72e203c)
+
+## Approach
+
+
+
