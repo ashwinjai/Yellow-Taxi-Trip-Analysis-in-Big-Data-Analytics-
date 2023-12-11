@@ -114,7 +114,9 @@ Average Tip mostly is 1.87. <br>
 
 46.20% of trips happened when extra charge was levied or when there is no extra charge people travel more. <br>
 
+### Conclusion <br>
 
+The Yellow Taxi Trip Analysis project, powered by GCP, Hadoop, and Hive, aims to revolutionize the way we analyze and derive insights from large-scale taxi trip data. We discovered anomalies or irregularities in taxi trip data. Further to this, we explored Insights into customer behavior and preferences based on historical trip patterns. <br>
 
 
 
