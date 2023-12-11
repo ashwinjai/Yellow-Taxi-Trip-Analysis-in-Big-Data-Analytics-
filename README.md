@@ -77,7 +77,36 @@ tip_amount was unusually charged by only vendor 2,count is 785 times with total 
 
 ![image](https://github.com/ashwinjai/Yellow-Taxi-Trip-Analysis-in-Big-Data-Analytics-/assets/36980518/c80f2578-c268-45b3-8ac7-97896aaca25c)
 
-improvement_surcharge was charged by only from vendor 2 and 4 and count is 73264 & 10 times with total of -10656.72
+improvement_surcharge was charged by only from vendor 2 and 4 and count is 73264 & 10 times with total of -10656.72 <br>
+
+10. Payment Type <br>
+
+![image](https://github.com/ashwinjai/Yellow-Taxi-Trip-Analysis-in-Big-Data-Analytics-/assets/36980518/b7cdef99-f880-46fd-935e-3473c0043916)
+
+Credit Card is most preferred choice. <br> 
+
+11. Overall average fare per trip <br>
+
+![image](https://github.com/ashwinjai/Yellow-Taxi-Trip-Analysis-in-Big-Data-Analytics-/assets/36980518/644353fb-2afa-4ef9-990f-e551eebcfd33)
+
+Average Tip mostly is 1.87. <br>
+
+12. The average tip with the 25th, 50th and 75th percentiles <br>
+
+![image](https://github.com/ashwinjai/Yellow-Taxi-Trip-Analysis-in-Big-Data-Analytics-/assets/36980518/8f7a6710-b9b1-46fe-80f5-d17e80ab1a1d)
+
+25th, 50th and 75th percentiles is repectively 0.0, 1.39, 2.44 and On an average is 1.87. <br>
+
+13. Extra Charge Variable <br>
+
+![image](https://github.com/ashwinjai/Yellow-Taxi-Trip-Analysis-in-Big-Data-Analytics-/assets/36980518/b9e8bb24-3399-46a1-b7a2-a6fd2ff62a21)
+
+46.20% of trips happened when extra charge was levied or when there is no extra charge people travel more. <br>
+
+
+
+
+
 
 
 
